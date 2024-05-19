@@ -61,7 +61,7 @@ The directory structure of your new project looks like this:
 │
 ├── misc               <- Miscellaneous files: figures, docker files, additional markdown files, etc.
 │
-└── customlib          <- Source code for use in this project. The written name of the project
+└── src                <- Source code for use in this project. The written name of the project
    │                      will be used.
    ├── __init__.py     <- Makes src a Python module.
    │

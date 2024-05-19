@@ -56,7 +56,7 @@ The directory structure of your new project looks like this:
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`.
 │
-├── setup.py           <- makes project pip installable (pip install -e .) so your code can be
+├── setup.py           <- makes project pip installable (pip install -e .) so src can be
 │                         imported.
 │
 ├── data
@@ -73,7 +73,7 @@ The directory structure of your new project looks like this:
 │
 ├── misc               <- Miscellaneous files: figures, docker files, additional markdown files, etc.
 │
-└── customlib          <- Source code for use in this project. The written name of the project
+└── src                <- Source code for use in this project. The written name of the project
    │                      will be used.
    ├── __init__.py     <- Makes src a Python module.
    │
